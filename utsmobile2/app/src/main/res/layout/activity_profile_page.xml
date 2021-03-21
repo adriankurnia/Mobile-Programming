@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilePage"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/background">
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="70dp"
+                android:layout_height="47dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_baseline_arrow_back_ios_24"
+                app:backgroundTint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/redkits"
+                android:text="Profile Page"
+                android:textColor="#ffffff"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/backButton"
+                android:textSize="30dp"
+                android:layout_centerVertical="true"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="201dp"
+                android:layout_height="260dp"
+                android:src="@drawable/profile_image2"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/nim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_nim"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_name"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/kelas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_class"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/referensi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Referensi"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Youtube : "
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/redkits"
+                />
+
+            <TextView
+                android:id="@+id/video1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/video1"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:textColorLink="#ffffff"/>
+
+            <TextView
+                android:id="@+id/video2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/video2"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:textColorLink="#ffffff"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/video3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/video3"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:textColorLink="#ffffff"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/video4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/video4"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:textColorLink="#ffffff"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/video5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/video5"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:textColorLink="#ffffff"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/video6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/video6"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:textColorLink="#ffffff"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/video7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/video7"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:textColorLink="#ffffff"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/teman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teman : "
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/redkits"
+                />
+
+            <TextView
+                android:id="@+id/temen1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Kevin Bobby Tanujaya"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/temen2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Jericho Kefas Matahari"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/temen3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Renaldo Valentdra"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/temen4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Mochammad Rizal"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/temen5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Nikolaus Hendawan"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/temen6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. Leonagata Holianti"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/temen7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. Luthfi Zulfan"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

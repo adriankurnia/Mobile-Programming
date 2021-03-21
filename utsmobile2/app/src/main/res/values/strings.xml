@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">utsmobile2</string>
+    <string name="profile_nim">Nim: 00000031559</string>
+    <string name="profile_name">Nama : R. Adrian Kurnia Wicaksono</string>
+    <string name="profile_class">Kelas : CL</string>
+    <string name="video1"><a href="https://youtu.be/MC-sSt5VDBc">1. Gradient Background</a> </string>
+    <string name="video2"><a href="https://youtu.be/bgIUdb-7Rqo">2. Button Navigation</a></string>
+    <string name="video3"><a href="https://youtu.be/hd0VNgTRzfA">3. Link in Textview</a></string>
+    <string name="video4"><a href="https://youtu.be/FFL-k9fFYfI">4. Login Page</a></string>
+    <string name="video5"><a href="https://youtu.be/DOd6E6azS5I">5. Custom action toolbar</a></string>
+    <string name="video6"><a href="https://youtu.be/1xRC1DMWg9I">6. Menu pop up</a></string>
+    <string name="video7"><a href="https://youtube.com/playlist?list=PLwQLA73lSe1RfjMzbRLoIkcIJBu25FnVJ">7. Music Player</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
